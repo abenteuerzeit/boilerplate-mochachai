@@ -1,0 +1,51 @@
+
+> automated-testing-app@0.0.1 start
+> node server.js
+
+Listening on port 3000
+Running Tests...
+
+
+  Unit Tests
+    Basic Assertions
+      ✔ #isNull, #isNotNull
+      ✔ #isDefined, #isUndefined
+      ✔ #isOk, #isNotOk
+      ✔ #isTrue, #isNotTrue
+    Equality
+      ✔ #equal, #notEqual
+      ✔ #strictEqual, #notStrictEqual
+      ✔ #deepEqual, #notDeepEqual
+    Comparisons
+      ✔ #isAbove, #isAtMost
+      ✔ #isBelow, #isAtLeast (63ms)
+      ✔ #approximately
+    Arrays
+      ✔ #isArray, #isNotArray
+      ✔ Array #include, #notInclude
+    Strings
+      ✔ #isString, #isNotString
+      ✔ String #include, #notInclude
+      ✔ #match, #notMatch
+    Objects
+      ✔ #property, #notProperty
+      ✔ #typeOf, #notTypeOf
+      ✔ #instanceOf, #notInstanceOf
+
+  Functional Tests
+    Integration tests with chai-http
+      ✔ Test GET /hello with no name (112ms)
+      ✔ Test GET /hello with your name
+      ✔ Send {surname: "Colombo"} (79ms)
+      ✔ Send {surname: "da Verrazzano"} (89ms)
+
+  Functional Tests with Zombie.js
+    Headless browser
+      ✔ should have a working "site" property
+    "Famous Italian Explorers" form
+      ✔ Submit the surname "Colombo" in the HTML form (1122ms)
+      ✔ Submit the surname "Vespucci" in the HTML form (1013ms)
+
+
+  25 passing (5s)
+
