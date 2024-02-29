@@ -2,7 +2,7 @@ repo_name: abenteuerzeit/boilerplate-mochachai
 report_id: 63f522ea838259e2661c0de8bd5ec0fc
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:49:22+00:00'
+timestamp: '2024-02-29T18:40:17+00:00'
 requested_by: abenteuerzeit
 provider: github
 branch: main
@@ -84,7 +84,7 @@ tools:
   last_updated_by: Kristofer Koishigawa
   last_updated_on: 2021-08-13 23:37:04.000000000 Z
 - name: Nix
-  description: 'A package manager for Linux and other Unix systems '
+  description: A package manager for Linux and other Unix systems
   website_url: http://nixos.org/nix
   license: LGPL-2.1
   open_source: true
